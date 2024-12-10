@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h1{
+        margin-bottom: 100px;
+    }
+}
+
+section{
+    display: flex;
+    gap: 50px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.sb div{
+
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+
+    &:hover{
+        width: 75px;
+        height: 75px;
+        transition: 200ms linear;
+        box-shadow: 0px 0px 7px;
+    }
+
+}
+
+#sb1{
+    background:linear-gradient(45deg, green 50%,  rebeccapurple 50%);
+}
+
+#sb2{
+    background:linear-gradient(45deg, darkgray 50%, yellow 50%);
+}
+
+#sb3{
+    background:linear-gradient(45deg, black 50%, orange 50%);
+}
+
+#sb4{
+    background:linear-gradient(45deg, darkblue 50%, lightblue 50%);
+}
+
